@@ -1,0 +1,28 @@
+{
+  "name": "umkmchain-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "npm@11.6.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "seed": "npm run seed --workspace=@umkmchain/api",
+    "contracts:compile": "npm run compile --workspace=@umkmchain/contracts",
+    "contracts:test": "npm run test --workspace=@umkmchain/contracts"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.6"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0"
+  }
+}

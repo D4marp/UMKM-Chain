@@ -1,0 +1,37 @@
+# dependencies
+node_modules/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env
+.env
+.env.*
+!.env.example
+
+# next.js
+.next/
+out/
+
+# build artifacts
+dist/
+artifacts/
+cache/
+coverage/
+.turbo/
+**/.turbo/
+
+# hardhat
+cache/
+artifacts/
+typechain-types/
+
+# os
+.DS_Store
+
+# IDE
+.vscode/*
+!.vscode/extensions.json

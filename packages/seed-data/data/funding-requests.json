@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "msmeId": "UMKM-001",
+    "amount": 120000000,
+    "tenorMonths": 12,
+    "purpose": "Pembelian mesin roasting baru",
+    "status": "REQUESTED",
+    "riskLevel": "LOW"
+  },
+  {
+    "id": 2,
+    "msmeId": "UMKM-002",
+    "amount": 80000000,
+    "tenorMonths": 10,
+    "purpose": "Ekspansi penjualan digital",
+    "status": "APPROVED",
+    "riskLevel": "MEDIUM"
+  },
+  {
+    "id": 3,
+    "msmeId": "UMKM-004",
+    "amount": 60000000,
+    "tenorMonths": 8,
+    "purpose": "Modal kerja bahan baku",
+    "status": "REPAID",
+    "riskLevel": "LOW"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "@umkmchain/seed-data",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "echo 'seed-data package build skipped'",
+    "lint": "echo 'seed-data package lint skipped'",
+    "test": "node --test"
+  }
+}

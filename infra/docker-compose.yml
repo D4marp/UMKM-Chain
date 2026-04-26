@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+  mongodb:
+    image: mongo:7
+    container_name: umkmchain-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: umkmchain
+    volumes:
+      - mongo_data:/data/db
+
+  postgres:
+    image: postgres:16
+    container_name: umkmchain-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: umkmchain
+      POSTGRES_USER: umkmchain
+      POSTGRES_PASSWORD: umkmchain
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+volumes:
+  mongo_data:
+  pg_data:

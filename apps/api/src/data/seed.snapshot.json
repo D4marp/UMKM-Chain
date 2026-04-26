@@ -1,0 +1,84 @@
+{
+  "generatedAt": "2026-04-24T16:29:28.818Z",
+  "umkmProfiles": [
+    {
+      "id": "UMKM-001",
+      "businessName": "Kopi Nusantara Makmur",
+      "owner": "Siti Rahmawati",
+      "city": "Bandung",
+      "sector": "F&B",
+      "annualRevenue": 540000000,
+      "creditScore": 78,
+      "walletAddress": "0x3f5Ce5FBFe3E9af3971dD833D26BA9b5C936f0bE"
+    },
+    {
+      "id": "UMKM-002",
+      "businessName": "Tenun Flores Sejahtera",
+      "owner": "Maria Lestari",
+      "city": "Kupang",
+      "sector": "Fashion",
+      "annualRevenue": 310000000,
+      "creditScore": 74,
+      "walletAddress": "0xAb8483F64D9C6d1EcF9b849Ae677dD3315835Cb2"
+    },
+    {
+      "id": "UMKM-003",
+      "businessName": "Agro Tani Cerdas",
+      "owner": "Budi Santoso",
+      "city": "Yogyakarta",
+      "sector": "Agriculture",
+      "annualRevenue": 690000000,
+      "creditScore": 83,
+      "walletAddress": "0x4B0897b0513fdc7C541B6d9D7E929C4e5364D2dB"
+    },
+    {
+      "id": "UMKM-004",
+      "businessName": "Roti Ibu Pertiwi",
+      "owner": "Nur Aisyah",
+      "city": "Surabaya",
+      "sector": "Food Processing",
+      "annualRevenue": 460000000,
+      "creditScore": 76,
+      "walletAddress": "0x583031D1113aD414F02576BD6afaBfb302140225"
+    },
+    {
+      "id": "UMKM-005",
+      "businessName": "Batik Madani Solo",
+      "owner": "Andi Prasetyo",
+      "city": "Solo",
+      "sector": "Craft",
+      "annualRevenue": 410000000,
+      "creditScore": 72,
+      "walletAddress": "0xdD2FD4581271e230360230F9337D5c0430Bf44C0"
+    }
+  ],
+  "fundingRequests": [
+    {
+      "id": 1,
+      "msmeId": "UMKM-001",
+      "amount": 120000000,
+      "tenorMonths": 12,
+      "purpose": "Pembelian mesin roasting baru",
+      "status": "REQUESTED",
+      "riskLevel": "LOW"
+    },
+    {
+      "id": 2,
+      "msmeId": "UMKM-002",
+      "amount": 80000000,
+      "tenorMonths": 10,
+      "purpose": "Ekspansi penjualan digital",
+      "status": "APPROVED",
+      "riskLevel": "MEDIUM"
+    },
+    {
+      "id": 3,
+      "msmeId": "UMKM-004",
+      "amount": 60000000,
+      "tenorMonths": 8,
+      "purpose": "Modal kerja bahan baku",
+      "status": "REPAID",
+      "riskLevel": "LOW"
+    }
+  ]
+}
